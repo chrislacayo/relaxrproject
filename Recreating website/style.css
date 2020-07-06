@@ -1,0 +1,215 @@
+*{
+  box-sizing: border-box;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clear{
+  clear:both;
+}
+.alignright{
+  float: right
+  padding:0 0 10px 10px;
+}
+.alignleft{
+  float:left;
+  padding:0 10px 10px 0;
+}
+
+h1{
+  color:white;
+  float: left;
+  width: 100px;
+  height: 400px;
+  margin: 0%;
+  text-align: right;
+}
+
+p{
+  color: white;
+}
+
+.b1{
+  margin: auto;
+  width: 30%;
+  height: 50px;
+  padding: 12px;
+  font-size: 18px;
+  border: 3px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: hidden;
+  border-radius: 5px;
+  color:white;
+ background: navy;
+}
+#b2{
+  margin: 0;
+  width: 30%;
+  height: ;
+  padding: 14px;
+  font-size: 18px;
+  border: 5px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  border-style: hidden;
+  top: 50%;
+  left: 60%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+h2{
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  float: center;
+}
+h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  display: flex;
+  left: 0px
+
+}
+
+#first{
+  background-image: url("images/waves.jpg");
+  width:100%;
+  z-index: 0
+  position:absolute;
+  height:500px;
+  border:0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 100%;
+}
+
+
+#second{
+  background-image: url("images/bridge.jpeg");
+  width: 100%;
+  z-index: 0;
+  font-size: 18px;
+  text-align: left;
+  padding: 100px;
+  height: 500px;
+  background-position: top left;
+  positon:absolute;
+  margin: auto;
+  background-size: cover;
+  color:white;
+}
+
+#third{
+  background-image: url("images/testimonial_bg.jpg");
+  width: 100%;
+  z-index: 0
+  position:top;
+  height: 250px;
+}
+
+#foruth{
+  background:yellow;
+  display:flex;
+  background-color: yellow;
+}
+
+#fifth{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-style: bold;
+  text-align: center;
+  background-color: white;
+}
+
+#sixth{
+  text-align: center;
+  font-size: 12px;
+}
+
+#para1{
+  font-family: light;
+  font-size: 20px;
+  color: white;
+}
+
+#para2{
+  text-align: center;
+  opacity: 0.6;
+  font-size: 24px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-style: 
+
+}
+
+#para3{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-family:"semibold";
+  margin:auto;
+}
+
+#para4{
+  color:yellow;
+  margin: 0;
+}
+
+#para5{
+  color: ;
+  background-color: grey;
+  height: 100px;
+  margin:auto;
+  text-align: center;
+  z-index:0;
+  left: 0;
+  position:relative;
+  top:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#para6{
+  color: black;
+  font-size: 12px;
+  background-color: grey;
+  height: 100px;
+  margin:auto;
+}
+
+body{
+   font-family: 'Open Sans', sans-serif;
+   color:#000;
+   background-color: yellow;
+}
+
+
+
+
+
+
+  
+
